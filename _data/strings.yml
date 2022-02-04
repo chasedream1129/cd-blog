@@ -23,25 +23,25 @@ social:                Social
 links:                 Links
 links_icon:            'icon-link'
 pagination:            Pagination
-newer:                 Newer
-older:                 Older
+newer:                 上一页
+older:                 下一页
 forward:               Forward
 back:                  Back
 permalink:             Permalink
 permalink_icon:        'content-hash'
 templates:             Templates (for web app)
 present:               present
-toc:                   Table of Contents
+toc:                   目录
 note:                  Note
-description:           Description
-search:                Search
+description:           简介
+search:                搜索
 search_placeholder:    Type something…
 
 loading:               Loading…
 redirecting:           Redirecting…
 
 continue_reading:      >
-  Continue reading <!--post_title-->
+  继续阅读 <!--post_title-->
 
 cookies_banner:
   text:                >
@@ -85,9 +85,9 @@ breadcrumbs_separator: '/'
 # Date formats
 # ---------------------------------------------------------------------------------------
 date_formats:
-  post:                '%d %b %Y'
+  post:                '%Y-%m-%d'
   last_modified_at:    '%Y-%m-%d'
-  related_post:        '%d %b %Y'
+  related_post:        '%Y-%m-%d'
   list_group_by:       '%Y'
   list_entry:          '%d %b'
   project:             '%Y'

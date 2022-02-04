@@ -1,7 +1,7 @@
 # This file contains meta data for various social media sites
 email:
   name: Email
-  icon: icon-mail
+  icon: icon-envelop
   prepend: 'mailto:'
 amazon:
   name: Amazon
@@ -94,7 +94,7 @@ deviantart:
 steam:
   name: Steam
   icon: icon-steam
-  prepend: "http://steamcommunity.com/profiles/"
+  prepend: "https://steamcommunity.com/id/"
 dropbox:
   name: Dropbox
   icon: icon-dropbox
@@ -206,3 +206,11 @@ keybase:
 download:
   name: Download
   icon: icon-box-add
+mastodon:
+  name: Mastodon
+  icon: icon-mastodon
+  prepend: "https://"
+telegram:
+  name: Telegram
+  icon: icon-telegram
+  prepend: "https://t.me/"
