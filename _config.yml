@@ -10,6 +10,7 @@ url:                  https://chasedre.am
 # with a leading `/` but no trailing `/`. Use the empty string '' otherwise.
 # NOTE: You don't need to provide this property when hosting on GitHub Pages or Netlify.
 # baseurl:               '/hydejack-starter-kit'
+baseurl:               ''
 
 
 # General settings
@@ -25,7 +26,7 @@ title:                 ChaseDream
 # A short description (~150 chars) of the page used for the meta description tag.
 # Can use markdown, but no more than one paragraph (enforced by `>`)
 description:           >
-  CD的Blog
+  CD的博客
 
 # A shorter description for the sidebar.
 tagline:               姑且算个技术宅，永远喜欢任天堂
@@ -48,22 +49,17 @@ author:
 
 # Add links to the sidebar.
 menu:
-  - title:             Blog
-    url:               /blog/
-  - title:             Projects
-    url:               /projects/
-  - title:             Résumé*
-    url:               /resume/
-  - title:             Documentation
-    url:               /docs/
+  - title:             Home
+    url:               /
+  - title:             Review
+    url:               /review/
+  - title:             About
+    url:               /about/
+
 
 # Add links to the footer.
 # Typically you'll want to link to your cookie- or privacy policy (if appliable), etc..
 legal:
-  - title:             LICENSE
-    url:               /LICENSE/
-  - title:             NOTICE
-    url:               /NOTICE/
   - title:             CHANGELOG
     url:               /CHANGELOG/
 
@@ -245,7 +241,7 @@ hydejack:
   no_theme_color:      false
 
   # Disable the breadcrumbs above the title
-  no_breadcrumbs:      false
+  no_breadcrumbs:      true
 
   # Set to `true` when building with the `--lsi` option
   use_lsi:             true
